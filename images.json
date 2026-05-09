@@ -1,0 +1,812 @@
+[
+    {
+        "id": "Advanced Forsaken Armor.webp",
+        "name": "Advanced Forsaken Armor",
+        "url": "FFO_Images/Accesories/Advanced Forsaken Armor.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Arm Wraps.webp",
+        "name": "Arm Wraps",
+        "url": "FFO_Images/Accesories/Arm Wraps.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Asakusa Robes.webp",
+        "name": "Asakusa Robes",
+        "url": "FFO_Images/Accesories/Asakusa Robes.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Ascended Back Spikes.webp",
+        "name": "Ascended Back Spikes",
+        "url": "FFO_Images/Accesories/Ascended Back Spikes.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Assassin's Robe.webp",
+        "name": "Assassin's Robe",
+        "url": "FFO_Images/Accesories/Assassin's Robe.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Back Spikes.webp",
+        "name": "Back Spikes",
+        "url": "FFO_Images/Accesories/Back Spikes.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Balaclava.webp",
+        "name": "Balaclava",
+        "url": "FFO_Images/Accesories/Balaclava.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Bamboo Muzzle.webp",
+        "name": "Bamboo Muzzle",
+        "url": "FFO_Images/Accesories/Bamboo Muzzle.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Bansho Cape.webp",
+        "name": "Bansho Cape",
+        "url": "FFO_Images/Accesories/Bansho Cape.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Bat wings.webp",
+        "name": "Bat wings",
+        "url": "FFO_Images/Accesories/Bat wings.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Blood Reaper Mask.webp",
+        "name": "Blood Reaper Mask",
+        "url": "FFO_Images/Accesories/Blood Reaper Mask.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Brass Knuckles.webp",
+        "name": "Brass Knuckles",
+        "url": "FFO_Images/Accesories/Brass Knuckles.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Broken Forsaken Armor.webp",
+        "name": "Broken Forsaken Armor",
+        "url": "FFO_Images/Accesories/Broken Forsaken Armor.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Burns Eyepatch.webp",
+        "name": "Burns Eyepatch",
+        "url": "FFO_Images/Accesories/Burns Eyepatch.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Captain's Cape.webp",
+        "name": "Captain's Cape",
+        "url": "FFO_Images/Accesories/Captain's Cape.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Chainbreaker Gauntlets.webp",
+        "name": "Chainbreaker Gauntlets",
+        "url": "FFO_Images/Accesories/Chainbreaker Gauntlets.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Cold Headphones.webp",
+        "name": "Cold Headphones",
+        "url": "FFO_Images/Accesories/Cold Headphones.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Corrupted Halo.webp",
+        "name": "Corrupted Halo",
+        "url": "FFO_Images/Accesories/Corrupted Halo.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Cosmic Armor.webp",
+        "name": "Cosmic Armor",
+        "url": "FFO_Images/Accesories/Cosmic Armor.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Cosmic Halo.webp",
+        "name": "Cosmic Halo",
+        "url": "FFO_Images/Accesories/Cosmic Halo.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Cosmic Hood.webp",
+        "name": "Cosmic Hood",
+        "url": "FFO_Images/Accesories/Cosmic Hood.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Cross Necklace.webp",
+        "name": "Cross Necklace",
+        "url": "FFO_Images/Accesories/Cross Necklace.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Cursed Chains.webp",
+        "name": "Cursed Chains",
+        "url": "FFO_Images/Accesories/Cursed Chains.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Dangai Chains.webp",
+        "name": "Dangai Chains",
+        "url": "FFO_Images/Accesories/Dangai Chains.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Death Mask.webp",
+        "name": "Death Mask",
+        "url": "FFO_Images/Accesories/Death Mask.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Doctor Hat.webp",
+        "name": "Doctor Hat",
+        "url": "FFO_Images/Accesories/Doctor Hat.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Dragon Tooth Necklace.webp",
+        "name": "Dragon Tooth Necklace",
+        "url": "FFO_Images/Accesories/Dragon Tooth Necklace.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Dragon's Claws.webp",
+        "name": "Dragon's Claws",
+        "url": "FFO_Images/Accesories/Dragon's Claws.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Dragon's Helmet.webp",
+        "name": "Dragon's Helmet",
+        "url": "FFO_Images/Accesories/Dragon's Helmet.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Dreamweavers Mask.webp",
+        "name": "Dreamweavers Mask",
+        "url": "FFO_Images/Accesories/Dreamweavers Mask.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Duffle Bag.webp",
+        "name": "Duffle Bag",
+        "url": "FFO_Images/Accesories/Duffle Bag.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Eclipse Earings.webp",
+        "name": "Eclipse Earings",
+        "url": "FFO_Images/Accesories/Eclipse Earings.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Fancy Bow Tie.webp",
+        "name": "Fancy Bow Tie",
+        "url": "FFO_Images/Accesories/Fancy Bow Tie.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Festive Reindeer Hat.webp",
+        "name": "Festive Reindeer Hat",
+        "url": "FFO_Images/Accesories/Festive Reindeer Hat.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Festive Sweater.webp",
+        "name": "Festive Sweater",
+        "url": "FFO_Images/Accesories/Festive Sweater.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Fighter's Outfit.webp",
+        "name": "Fighter's Outfit",
+        "url": "FFO_Images/Accesories/Fighter's Outfit.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Fire Force Overalls.webp",
+        "name": "Fire Force Overalls",
+        "url": "FFO_Images/Accesories/Fire Force Overalls.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Fire Proof Outfit.webp",
+        "name": "Fire Proof Outfit",
+        "url": "FFO_Images/Accesories/Fire Proof Outfit.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Flamey Armor.webp",
+        "name": "Flamey Armor",
+        "url": "FFO_Images/Accesories/Flamey Armor.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Folded Clad Jacket.webp",
+        "name": "Folded Clad Jacket",
+        "url": "FFO_Images/Accesories/Folded Clad Jacket.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Forsaken Armor.webp",
+        "name": "Forsaken Armor",
+        "url": "FFO_Images/Accesories/Forsaken Armor.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Fur Coat.webp",
+        "name": "Fur Coat",
+        "url": "FFO_Images/Accesories/Fur Coat.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Gem Necklace.webp",
+        "name": "Gem Necklace",
+        "url": "FFO_Images/Accesories/Gem Necklace.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Grace Hood.webp",
+        "name": "Grace Hood",
+        "url": "FFO_Images/Accesories/Grace Hood.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Hanafuda Earings.webp",
+        "name": "Hanafuda Earings",
+        "url": "FFO_Images/Accesories/Hanafuda Earings.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Haumea's Crown.webp",
+        "name": "Haumea's Crown",
+        "url": "FFO_Images/Accesories/Haumea's Crown.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Heartbreaker Earrings.webp",
+        "name": "Heartbreaker Earrings",
+        "url": "FFO_Images/Accesories/Heartbreaker Earrings.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Hero Glasses.webp",
+        "name": "Hero Glasses",
+        "url": "FFO_Images/Accesories/Hero Glasses.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Highrollers Earings.webp",
+        "name": "Highrollers Earings",
+        "url": "FFO_Images/Accesories/Highrollers Earings.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Holy Sol Cloak.webp",
+        "name": "Holy Sol Cloak",
+        "url": "FFO_Images/Accesories/Holy Sol Cloak.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Holy Sol Follower.webp",
+        "name": "Holy Sol Follower",
+        "url": "FFO_Images/Accesories/Holy Sol Follower.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Inca's Hood.webp",
+        "name": "Inca's Hood",
+        "url": "FFO_Images/Accesories/Inca's Hood.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Infernal Cloak.webp",
+        "name": "Infernal Cloak",
+        "url": "FFO_Images/Accesories/Infernal Cloak.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Infernal Mask.webp",
+        "name": "Infernal Mask",
+        "url": "FFO_Images/Accesories/Infernal Mask.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Inferno Insulator.webp",
+        "name": "Inferno Insulator",
+        "url": "FFO_Images/Accesories/Inferno Insulator.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Joker's Scarf.webp",
+        "name": "Joker's Scarf",
+        "url": "FFO_Images/Accesories/Joker's Scarf.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Joyous Hat.webp",
+        "name": "Joyous Hat",
+        "url": "FFO_Images/Accesories/Joyous Hat.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Knight King's Scarf.webp",
+        "name": "Knight King's Scarf",
+        "url": "FFO_Images/Accesories/Knight King's Scarf.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Martinez.webp",
+        "name": "Martinez",
+        "url": "FFO_Images/Accesories/Martinez.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Mask of Spades.webp",
+        "name": "Mask of Spades",
+        "url": "FFO_Images/Accesories/Mask of Spades.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Money Glasses.webp",
+        "name": "Money Glasses",
+        "url": "FFO_Images/Accesories/Money Glasses.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Mystic Cover.webp",
+        "name": "Mystic Cover",
+        "url": "FFO_Images/Accesories/Mystic Cover.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Ornament Necklace.webp",
+        "name": "Ornament Necklace",
+        "url": "FFO_Images/Accesories/Ornament Necklace.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Plague Cloak.webp",
+        "name": "Plague Cloak",
+        "url": "FFO_Images/Accesories/Plague Cloak.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Plague Mask.webp",
+        "name": "Plague Mask",
+        "url": "FFO_Images/Accesories/Plague Mask.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Protector's Shroud.webp",
+        "name": "Protector's Shroud",
+        "url": "FFO_Images/Accesories/Protector's Shroud.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Pumpkin Head.webp",
+        "name": "Pumpkin Head",
+        "url": "FFO_Images/Accesories/Pumpkin Head.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Radiant Halo.webp",
+        "name": "Radiant Halo",
+        "url": "FFO_Images/Accesories/Radiant Halo.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Ragged Cloak.webp",
+        "name": "Ragged Cloak",
+        "url": "FFO_Images/Accesories/Ragged Cloak.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Ragged Cowl.webp",
+        "name": "Ragged Cowl",
+        "url": "FFO_Images/Accesories/Ragged Cowl.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Restriction Chains.webp",
+        "name": "Restriction Chains",
+        "url": "FFO_Images/Accesories/Restriction Chains.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Ruby Crown.webp",
+        "name": "Ruby Crown",
+        "url": "FFO_Images/Accesories/Ruby Crown.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Ruby Necklace.webp",
+        "name": "Ruby Necklace",
+        "url": "FFO_Images/Accesories/Ruby Necklace.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Sandevistan.webp",
+        "name": "Sandevistan",
+        "url": "FFO_Images/Accesories/Sandevistan.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Santa Hat.webp",
+        "name": "Santa Hat",
+        "url": "FFO_Images/Accesories/Santa Hat.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Santa's Coat.webp",
+        "name": "Santa's Coat",
+        "url": "FFO_Images/Accesories/Santa's Coat.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Scale Male.webp",
+        "name": "Scale Male",
+        "url": "FFO_Images/Accesories/Scale Male.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Scorch Cursed Infernal Arm.webp",
+        "name": "Scorch Cursed Infernal Arm",
+        "url": "FFO_Images/Accesories/Scorch Cursed Infernal Arm.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Sho's Gloves.webp",
+        "name": "Sho's Gloves",
+        "url": "FFO_Images/Accesories/Sho's Gloves.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Slippery Tentacle.webp",
+        "name": "Slippery Tentacle",
+        "url": "FFO_Images/Accesories/Slippery Tentacle.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Soldiers Hat.webp",
+        "name": "Soldiers Hat",
+        "url": "FFO_Images/Accesories/Soldiers Hat.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Soul Headband.webp",
+        "name": "Soul Headband",
+        "url": "FFO_Images/Accesories/Soul Headband.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Star Wristband.webp",
+        "name": "Star Wristband",
+        "url": "FFO_Images/Accesories/Star Wristband.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Starbringers Mask.webp",
+        "name": "Starbringers Mask",
+        "url": "FFO_Images/Accesories/Starbringers Mask.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Starfallen Crown.webp",
+        "name": "Starfallen Crown",
+        "url": "FFO_Images/Accesories/Starfallen Crown.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Strawhat.webp",
+        "name": "Strawhat",
+        "url": "FFO_Images/Accesories/Strawhat.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Sun God Earings.webp",
+        "name": "Sun God Earings",
+        "url": "FFO_Images/Accesories/Sun God Earings.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Swag Puffer.webp",
+        "name": "Swag Puffer",
+        "url": "FFO_Images/Accesories/Swag Puffer.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "The Evangelist Ring.webp",
+        "name": "The Evangelist Ring",
+        "url": "FFO_Images/Accesories/The Evangelist Ring.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Time Sweeper.webp",
+        "name": "Time Sweeper",
+        "url": "FFO_Images/Accesories/Time Sweeper.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Turban.webp",
+        "name": "Turban",
+        "url": "FFO_Images/Accesories/Turban.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Vigilante Scarf.webp",
+        "name": "Vigilante Scarf",
+        "url": "FFO_Images/Accesories/Vigilante Scarf.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Warding mask.webp",
+        "name": "Warding mask",
+        "url": "FFO_Images/Accesories/Warding mask.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "White Clad Assasin.webp",
+        "name": "White Clad Assasin",
+        "url": "FFO_Images/Accesories/White Clad Assasin.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "White Clad Knight.webp",
+        "name": "White Clad Knight",
+        "url": "FFO_Images/Accesories/White Clad Knight.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "White Clad Maid.webp",
+        "name": "White Clad Maid",
+        "url": "FFO_Images/Accesories/White Clad Maid.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Witch hat.webp",
+        "name": "Witch hat",
+        "url": "FFO_Images/Accesories/Witch hat.webp",
+        "category": "Accesories"
+    },
+    {
+        "id": "Black Blood.webp",
+        "name": "Black Blood",
+        "url": "FFO_Images/Artifacts/Black Blood.webp",
+        "category": "Artifacts"
+    },
+    {
+        "id": "Hour Glass.webp",
+        "name": "Hour Glass",
+        "url": "FFO_Images/Artifacts/Hour Glass.webp",
+        "category": "Artifacts"
+    },
+    {
+        "id": "Soul Container.webp",
+        "name": "Soul Container",
+        "url": "FFO_Images/Artifacts/Soul Container.webp",
+        "category": "Artifacts"
+    },
+    {
+        "id": "True Restriction.webp",
+        "name": "True Restriction",
+        "url": "FFO_Images/Artifacts/True Restriction.webp",
+        "category": "Artifacts"
+    },
+    {
+        "id": "Azure Flame.png",
+        "name": "Azure Flame",
+        "url": "FFO_Images/Augments/Azure Flame.png",
+        "category": "Augments"
+    },
+    {
+        "id": "Corruption.png",
+        "name": "Corruption",
+        "url": "FFO_Images/Augments/Corruption.png",
+        "category": "Augments"
+    },
+    {
+        "id": "Darkborn.png",
+        "name": "Darkborn",
+        "url": "FFO_Images/Augments/Darkborn.png",
+        "category": "Augments"
+    },
+    {
+        "id": "Detonation.png",
+        "name": "Detonation",
+        "url": "FFO_Images/Augments/Detonation.png",
+        "category": "Augments"
+    },
+    {
+        "id": "Elf.png",
+        "name": "Elf",
+        "url": "FFO_Images/Augments/Elf.png",
+        "category": "Augments"
+    },
+    {
+        "id": "Energy Siphon.png",
+        "name": "Energy Siphon",
+        "url": "FFO_Images/Augments/Energy Siphon.png",
+        "category": "Augments"
+    },
+    {
+        "id": "Frost.png",
+        "name": "Frost",
+        "url": "FFO_Images/Augments/Frost.png",
+        "category": "Augments"
+    },
+    {
+        "id": "Life Stealers.png",
+        "name": "Life Stealers",
+        "url": "FFO_Images/Augments/Life Stealers.png",
+        "category": "Augments"
+    },
+    {
+        "id": "Magma WIP (TEMP IMG).webp",
+        "name": "Magma WIP (TEMP IMG)",
+        "url": "FFO_Images/Augments/Magma WIP (TEMP IMG).webp",
+        "category": "Augments"
+    },
+    {
+        "id": "Poison.png",
+        "name": "Poison",
+        "url": "FFO_Images/Augments/Poison.png",
+        "category": "Augments"
+    },
+    {
+        "id": "Probability.png",
+        "name": "Probability",
+        "url": "FFO_Images/Augments/Probability.png",
+        "category": "Augments"
+    },
+    {
+        "id": "Pumpkin.png",
+        "name": "Pumpkin",
+        "url": "FFO_Images/Augments/Pumpkin.png",
+        "category": "Augments"
+    },
+    {
+        "id": "Reversal.png",
+        "name": "Reversal",
+        "url": "FFO_Images/Augments/Reversal.png",
+        "category": "Augments"
+    },
+    {
+        "id": "Seer.webp",
+        "name": "Seer",
+        "url": "FFO_Images/Augments/Seer.webp",
+        "category": "Augments"
+    },
+    {
+        "id": "Starscorched.png",
+        "name": "Starscorched",
+        "url": "FFO_Images/Augments/Starscorched.png",
+        "category": "Augments"
+    },
+    {
+        "id": "Thunder.png",
+        "name": "Thunder",
+        "url": "FFO_Images/Augments/Thunder.png",
+        "category": "Augments"
+    },
+    {
+        "id": "Toi.webp",
+        "name": "Toi",
+        "url": "FFO_Images/Augments/Toi.webp",
+        "category": "Augments"
+    },
+    {
+        "id": "Vampire.png",
+        "name": "Vampire",
+        "url": "FFO_Images/Augments/Vampire.png",
+        "category": "Augments"
+    },
+    {
+        "id": "Augment catalysts.webp",
+        "name": "Augment catalysts",
+        "url": "FFO_Images/Items/Augment catalysts.webp",
+        "category": "Items"
+    },
+    {
+        "id": "Blessed Shards.webp",
+        "name": "Blessed Shards",
+        "url": "FFO_Images/Items/Blessed Shards.webp",
+        "category": "Items"
+    },
+    {
+        "id": "Boss Ticket.webp",
+        "name": "Boss Ticket",
+        "url": "FFO_Images/Items/Boss Ticket.webp",
+        "category": "Items"
+    },
+    {
+        "id": "Chest.webp",
+        "name": "Chest",
+        "url": "FFO_Images/Items/Chest.webp",
+        "category": "Items"
+    },
+    {
+        "id": "Corroded Metal.webp",
+        "name": "Corroded Metal",
+        "url": "FFO_Images/Items/Corroded Metal.webp",
+        "category": "Items"
+    },
+    {
+        "id": "Desert Chest.webp",
+        "name": "Desert Chest",
+        "url": "FFO_Images/Items/Desert Chest.webp",
+        "category": "Items"
+    },
+    {
+        "id": "Desert Gem.webp",
+        "name": "Desert Gem",
+        "url": "FFO_Images/Items/Desert Gem.webp",
+        "category": "Items"
+    },
+    {
+        "id": "Dungeon Coins.webp",
+        "name": "Dungeon Coins",
+        "url": "FFO_Images/Items/Dungeon Coins.webp",
+        "category": "Items"
+    },
+    {
+        "id": "Essence of Sacrifice.webp",
+        "name": "Essence of Sacrifice",
+        "url": "FFO_Images/Items/Essence of Sacrifice.webp",
+        "category": "Items"
+    },
+    {
+        "id": "Infernal Core.webp",
+        "name": "Infernal Core",
+        "url": "FFO_Images/Items/Infernal Core.webp",
+        "category": "Items"
+    },
+    {
+        "id": "Infernalized Shard.webp",
+        "name": "Infernalized Shard",
+        "url": "FFO_Images/Items/Infernalized Shard.webp",
+        "category": "Items"
+    },
+    {
+        "id": "Linked Stone.webp",
+        "name": "Linked Stone",
+        "url": "FFO_Images/Items/Linked Stone.webp",
+        "category": "Items"
+    },
+    {
+        "id": "Order Stone.webp",
+        "name": "Order Stone",
+        "url": "FFO_Images/Items/Order Stone.webp",
+        "category": "Items"
+    },
+    {
+        "id": "Prize Crates.webp",
+        "name": "Prize Crates",
+        "url": "FFO_Images/Items/Prize Crates.webp",
+        "category": "Items"
+    },
+    {
+        "id": "Reroll Tokens.webp",
+        "name": "Reroll Tokens",
+        "url": "FFO_Images/Items/Reroll Tokens.webp",
+        "category": "Items"
+    },
+    {
+        "id": "Shard.webp",
+        "name": "Shard",
+        "url": "FFO_Images/Items/Shard.webp",
+        "category": "Items"
+    }
+]

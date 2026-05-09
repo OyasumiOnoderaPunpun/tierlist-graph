@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Tierlist Graph</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- Sidebar: Filters and Unplotted Images -->
+        <aside id="sidebar">
+            <div class="sidebar-header">
+                <div class="header-top">
+                    <h1>Tierlist Graph</h1>
+                    <button id="settings-btn" class="icon-btn" title="Preferences">
+                        <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                    </button>
+                </div>
+                <div class="auth-container">
+                    <button id="login-btn" class="btn">Admin Login</button>
+                    <button id="logout-btn" class="btn hidden">Logout</button>
+                    <button id="save-btn" class="btn primary hidden">Save Changes</button>
+                </div>
+            </div>
+
+            <!-- Admin-Only Section -->
+            <div id="admin-tray-container" class="admin-only hidden">
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search unplotted items...">
+                </div>
+                <div id="image-tray" class="image-tray">
+                    <!-- Images will be dynamically inserted here -->
+                </div>
+                <div class="sidebar-divider"></div>
+            </div>
+
+            <!-- Public Category Filters -->
+            <div class="filter-section">
+                <h3>View Categories</h3>
+                <p class="filter-hint">Focus on specific categories, or deselect all to see everything</p>
+                <div class="checkbox-filters">
+                    <label><input type="checkbox" value="Weapons" checked> Weapons</label>
+                    <label><input type="checkbox" value="Accesories" checked> Accessories</label>
+                    <label><input type="checkbox" value="Artifacts" checked> Artifacts</label>
+                    <label><input type="checkbox" value="Augments" checked> Augments</label>
+                    <label><input type="checkbox" value="Items" checked> Items</label>
+                </div>
+            </div>
+            
+            <button id="view-changelog-btn" class="btn secondary full-width">View Changelog</button>
+        </aside>
+
+        <!-- Main Area: The Graph -->
+        <main id="main">
+            <div id="viewport">
+                <div id="graph-plane">
+                    <div id="grid-background"></div>
+                    <svg id="path-overlay"></svg>
+                    <div id="y-axis-line"></div>
+                    <div id="x-axis-line"></div>
+                    <div id="axis-numbers"></div>
+                    <!-- Images plotted on the graph will be appended here -->
+                </div>
+                <!-- Fixed axis labels -->
+                <div class="y-axis-label-fixed">VALUE</div>
+                <div class="x-axis-label-fixed">PVP</div>
+            </div>
+            
+            <!-- Controls overlay -->
+            <div id="zoom-controls">
+                <button id="zoom-in" class="btn secondary">+</button>
+                <button id="zoom-out" class="btn secondary">-</button>
+                <button id="origin-btn" class="btn secondary" title="Return to Origin">0,0</button>
+                <button id="reset-view" class="btn secondary">Reset</button>
+            </div>
+        </main>
+    </div>
+
+    <!-- Changelog Modal -->
+    <div id="changelog-modal" class="modal hidden">
+        <div class="modal-content glass">
+            <span class="close-btn">&times;</span>
+            <h2>Changelog</h2>
+            <div id="changelog-list"></div>
+            
+            <div id="admin-changelog-controls" class="hidden">
+                <textarea id="new-changelog-text" placeholder="Write a new changelog entry..."></textarea>
+                <button id="add-changelog-btn" class="btn primary">Add Entry</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="modal hidden">
+        <div class="modal-content glass small-modal">
+            <span class="close-login-btn">&times;</span>
+            <h2>Admin Login</h2>
+            <input type="password" id="admin-password" placeholder="Password">
+            <button id="submit-login-btn" class="btn primary full-width">Login</button>
+        </div>
+    </div>
+
+    <!-- Settings Modal -->
+    <div id="settings-modal" class="modal hidden">
+        <div class="modal-content glass">
+            <span class="close-settings-btn">&times;</span>
+            <h2>Preferences</h2>
+            <div class="theme-section">
+                <h3>Select Theme</h3>
+                <div class="theme-grid">
+                    <div class="theme-card" data-theme="default">
+                        <div class="theme-preview" style="background: #0b0c10; border-color: #6c5ce7;"></div>
+                        <span>Cosmic Void</span>
+                    </div>
+                    <div class="theme-card" data-theme="dracula">
+                        <div class="theme-preview" style="background: #282a36; border-color: #ff79c6;"></div>
+                        <span>Dracula</span>
+                    </div>
+                    <div class="theme-card" data-theme="nord">
+                        <div class="theme-preview" style="background: #2e3440; border-color: #88c0d0;"></div>
+                        <span>Nord</span>
+                    </div>
+                    <div class="theme-card" data-theme="catppuccin">
+                        <div class="theme-preview" style="background: #1e1e2e; border-color: #cba6f7;"></div>
+                        <span>Catppuccin Mocha</span>
+                    </div>
+                    <div class="theme-card" data-theme="rosepine">
+                        <div class="theme-preview" style="background: #191724; border-color: #c4a7e7;"></div>
+                        <span>Rosé Pine</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
